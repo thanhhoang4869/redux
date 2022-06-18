@@ -1,5 +1,5 @@
 import React from "react";
-import { connect } from "react-redux";
+import { connect } from "react-redux"; //HOC: Higher Order Component
 import { selectSong } from "../actions";
 
 function SongList(props) {
